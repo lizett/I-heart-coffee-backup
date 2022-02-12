@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		272284ED27B0B5C900A61183 /* BrewMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272284EC27B0B5C900A61183 /* BrewMethods.swift */; };
+		272284EF27B0B62100A61183 /* Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272284EE27B0B62100A61183 /* Water.swift */; };
+		272284F227B0BB8B00A61183 /* Dracula in Frameworks */ = {isa = PBXBuildFile; productRef = 272284F127B0BB8B00A61183 /* Dracula */; };
 		273626B127A9F61300D7DEF0 /* Sandbox2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273626B027A9F61300D7DEF0 /* Sandbox2App.swift */; };
 		273626B327A9F61300D7DEF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273626B227A9F61300D7DEF0 /* ContentView.swift */; };
 		273626B527A9F61500D7DEF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273626B427A9F61500D7DEF0 /* Assets.xcassets */; };
 		273626B827A9F61500D7DEF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273626B727A9F61500D7DEF0 /* Preview Assets.xcassets */; };
+		273626DF27AA414F00D7DEF0 /* BrewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273626DE27AA414F00D7DEF0 /* BrewModel.swift */; };
+		2789256A27B343550080D925 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2789256927B343550080D925 /* Favorites.swift */; };
+		2789256C27B373350080D925 /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2789256B27B373350080D925 /* CustomButtons.swift */; };
+		279E094127B6E4EB00424F2F /* Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279E094027B6E4EB00424F2F /* Testing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		272284EC27B0B5C900A61183 /* BrewMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewMethods.swift; sourceTree = "<group>"; };
+		272284EE27B0B62100A61183 /* Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Water.swift; sourceTree = "<group>"; };
 		273626AD27A9F61300D7DEF0 /* Sandbox2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandbox2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		273626B027A9F61300D7DEF0 /* Sandbox2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandbox2App.swift; sourceTree = "<group>"; };
 		273626B227A9F61300D7DEF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		273626B427A9F61500D7DEF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		273626B727A9F61500D7DEF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		273626DE27AA414F00D7DEF0 /* BrewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewModel.swift; sourceTree = "<group>"; };
+		2789256927B343550080D925 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		2789256B27B373350080D925 /* CustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
+		279E094027B6E4EB00424F2F /* Testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				272284F227B0BB8B00A61183 /* Dracula in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +67,12 @@
 			children = (
 				273626B027A9F61300D7DEF0 /* Sandbox2App.swift */,
 				273626B227A9F61300D7DEF0 /* ContentView.swift */,
+				273626DE27AA414F00D7DEF0 /* BrewModel.swift */,
+				272284EC27B0B5C900A61183 /* BrewMethods.swift */,
+				2789256927B343550080D925 /* Favorites.swift */,
+				272284EE27B0B62100A61183 /* Water.swift */,
+				279E094027B6E4EB00424F2F /* Testing.swift */,
+				2789256B27B373350080D925 /* CustomButtons.swift */,
 				273626B427A9F61500D7DEF0 /* Assets.xcassets */,
 				273626B627A9F61500D7DEF0 /* Preview Content */,
 			);
@@ -83,6 +103,9 @@
 			dependencies = (
 			);
 			name = Sandbox2;
+			packageProductDependencies = (
+				272284F127B0BB8B00A61183 /* Dracula */,
+			);
 			productName = Sandbox2;
 			productReference = 273626AD27A9F61300D7DEF0 /* Sandbox2.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +134,9 @@
 				Base,
 			);
 			mainGroup = 273626A427A9F61300D7DEF0;
+			packageReferences = (
+				272284F027B0BB8B00A61183 /* XCRemoteSwiftPackageReference "swiftui" */,
+			);
 			productRefGroup = 273626AE27A9F61300D7DEF0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +163,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				272284ED27B0B5C900A61183 /* BrewMethods.swift in Sources */,
+				273626DF27AA414F00D7DEF0 /* BrewModel.swift in Sources */,
+				2789256C27B373350080D925 /* CustomButtons.swift in Sources */,
+				279E094127B6E4EB00424F2F /* Testing.swift in Sources */,
 				273626B327A9F61300D7DEF0 /* ContentView.swift in Sources */,
+				2789256A27B343550080D925 /* Favorites.swift in Sources */,
+				272284EF27B0B62100A61183 /* Water.swift in Sources */,
 				273626B127A9F61300D7DEF0 /* Sandbox2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +371,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		272284F027B0BB8B00A61183 /* XCRemoteSwiftPackageReference "swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dracula/swiftui.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		272284F127B0BB8B00A61183 /* Dracula */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 272284F027B0BB8B00A61183 /* XCRemoteSwiftPackageReference "swiftui" */;
+			productName = Dracula;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 273626A527A9F61300D7DEF0 /* Project object */;
 }
